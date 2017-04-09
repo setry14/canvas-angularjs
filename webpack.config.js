@@ -16,6 +16,7 @@ const config = {
       { test: /\.html$/, use: 'file-loader?name=templates/[name]-[hash:10].html' },
       { test: /\.(js|jsx)$/, exclude: /(node_modules)/, use: 'babel-loader' },
       { test: /\.css$/, use: ['style-loader', 'css-loader'] },
+      { test: /\.(svg|png)$/i, use: 'file-loader?name=images/[name].[ext]' },
       { test: [/fontawesome-webfont\.svg/, /fontawesome-webfont\.eot/, /fontawesome-webfont\.ttf/, /fontawesome-webfont\.woff/, /fontawesome-webfont\.woff2/], use: 'file-loader?name=fonts/[name].[ext]' }
     ]
   },
