@@ -14,14 +14,15 @@ class HtmlCanvasController {
         this.$postLink = () => {
             console.log('PostLink: ' + this);
             let bpCanvas = document.getElementById('bpCanvas');
-            //bpCanvas.width = bpCanvas.scrollWidth;
-            //bpCanvas.height = bpCanvas.scrollHeight;
+            bpCanvas.width = window.innerWidth;
+            bpCanvas.height = window.innerHeight;
             let bpCanvasContext = bpCanvas.getContext('2d');
             let img = new Image();
             img.onload = function () {
                 bpCanvasContext.drawImage(img, 0, 0);
             };
             img.src = '../images/image.svg';
+
         };
     }
 }
