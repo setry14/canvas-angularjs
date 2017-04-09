@@ -1,9 +1,9 @@
 {
   "author": "Sumeet Sethi",
   "license": "MIT",
-  "name": "BP",
+  "name": "bpui",
   "version": "1.0.0",
-  "description": "Boiler Plate served with Webpack2 | ES2015 | AngularJS | Angular Material",
+  "description": "Using HTML5 Canvas with AngularJS Components",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --progress --colors",
