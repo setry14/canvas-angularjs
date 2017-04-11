@@ -14,13 +14,13 @@ import home from './home/home.module';
 import menu from './menu/menu.module';
 import secondScreen from './secondScreen/secondScreen.module';
 import BpService from './services/bpServices';
-import DialogComponent from './common/common.module';
+import CommonModule from './common/common.module';
 
 // BoilerPlate (aka BP) Styles
 import './assets/styles/bp.css';
 import '../app/assets/images/image.svg';
 
-export const bpuiModule = angular.module('bpui', [angularMaterial, angularAnimate, angularUIRouter, angularMessages, angularResource, menu, secondScreen, home, BpService, DialogComponent]);
+export const bpuiModule = angular.module('bpui', [angularMaterial, angularAnimate, angularUIRouter, angularMessages, angularResource, menu, secondScreen, home, BpService, CommonModule]);
 bpuiModule.config(BpuiConfig);
 bpuiModule.controller('BpuiController', BpuiController);
 
