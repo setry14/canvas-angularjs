@@ -3,6 +3,8 @@
 This app is a quick start way to make HTML5 Canvas work with AngularJS Components. 
 I will be using one of my earlier boilerplate as base code to cut the development time on this app.
 
+[DEMO](https://setry14.github.io/canvas-angularjs/dist)
+
 This Boiler Plate (referenced throughout the app as BP | Bp | bp) is running the following stack:
 -   Webpack 2 
 -   ES2015 (ES6)
